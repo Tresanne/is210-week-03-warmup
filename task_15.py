@@ -4,5 +4,5 @@
 
 
 NOT_THE_QUESTION = 'The answer to life, the universe, and everything? It\'s '
-ANSWER = str('42')
-THANKS_FOR_THE_FISH = NOT_THE_QUESTION + ANSWER
+ANSWER = 42
+THANKS_FOR_THE_FISH = NOT_THE_QUESTION + str(ANSWER)
